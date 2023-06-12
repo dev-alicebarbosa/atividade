@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/calculadora.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+
+        </div>
+        <nav class="cabecalho__nav">
+            <a href="../index.html" class="cabecalho__nav__link">Inicio</a>
+            <a href="calculadora.html" class="cabecalho__nav__link assinado">Calculadora</a>
+            <a href="pag.html" class="cabecalho__nav__link">Banco de Questôes</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <h1>Calculadora de conversão de medidas</h1>
+        <form>
+           <div>
+                <label for="medidas1">Digite o valor e selecione em qual unidade de medida está o que deseja converter:
+                    
+                </label>
+                <input type="text" name="val" id="val" class="valor">
+                <select id="medidas1" class="input">
+                    <option value="">--</option>
+                    <optgroup label="temperatura" >
+                        
+                        <option value="01">Kelvin</option>
+                        <option value="02">Cesius</option>
+                        <option value="03">Fahrenheit</option>
+                    </optgroup>
+                    <optgroup label="Comprimento">
+                        <option value="11">Quilômetro (km)</option>
+                        <option value="12">Hectômetro (hm)</option>
+                        <option value="13">Decâmetro (dam)</option>
+                        <option value="14">Metro (m)</option>
+                        <option value="15">Decímetro (dm)</option>
+                        <option value="16">Centímetro (cm)</option>
+                        <option value="17">Milímetro (ml)</option>
+                    </optgroup>
+                    <optgroup label="Volume">
+                        <option value="21">Quilolitro (kl)</option>
+                        <option value="22">Hectolitro (hl)</option>
+                        <option value="23">Decalitro (dal)</option>
+                        <option value="24">Litro (l)</option>
+                        <option value="25">Decilitro (dl)</option>
+                        <option value="26">Centilitro (cl)</option>
+                        <option value="27">Mililitro (ml)</option>
+                    </optgroup>
+                    <optgroup label="Massa">
+                        <option value="31">Quilograma (kg)</option>
+                        <option value="32">Hectograma (hg)</option>
+                        <option value="33">Decagrama (dag)</option>
+                        <option value="34">Grama (g)</option>
+                        <option value="35">Decigrama (dg)</option>
+                        <option value="36">Centigrama (cg)</option>
+                        <option value="37">Miligrama (mg)</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="medidas2" >Selecione para qual unidade de medida deseja converter:</label>
+                <select name="medidas2" id="medidas2" class="input">
+                    <option value="">--</option>
+                    <optgroup label="temperatura" >
+                        <option value="01">Kelvin</option>
+                        <option value="02">Cesius</option>
+                        <option value="03">Fahrenheit</option>
+                    </optgroup>
+                    <optgroup label="Comprimento">
+                        <option value="11">Quilômetro (km)</option>
+                        <option value="12">Hectômetro (hm)</option>
+                        <option value="13">Decâmetro (dam)</option>
+                        <option value="14">Metro (m)</option>
+                        <option value="15">Decímetro (dm)</option>
+                        <option value="16">Centímetro (cm)</option>
+                        <option value="17">Milímetro (ml)</option>
+                    </optgroup>
+                    <optgroup label="Volume">
+                        <option value="21">Quilolitro (kl)</option>
+                        <option value="22">Hectolitro (hl)</option>
+                        <option value="23">Decalitro (dal)</option>
+                        <option value="24">Litro (l)</option>
+                        <option value="25">Decilitro (dl)</option>
+                        <option value="26">Centilitro (cl)</option>
+                        <option value="27">Mililitro (ml)</option>
+                    </optgroup>
+                    <optgroup label="Massa">
+                        <option value="31">Quilograma (kg)</option>
+                        <option value="32">Hectograma (hg)</option>
+                        <option value="33">Decagrama (dag)</option>
+                        <option value="34">Grama (g)</option>
+                        <option value="35">Decigrama (dg)</option>
+                        <option value="36">Centigrama (cg)</option>
+                        <option value="37">Miligrama (mg)</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <button class="btn" id="btn">
+                    Converta
+                </button>
+            </div>
+            <div id="result">
+
+            </div>
+        </form>
+
+        
+
+    </main>
+    <footer class="rodape">
+        <p class="rodape__text">Feito por Alice, aluna do IFPA 3º ano T.I 2020 </p>
+    </footer>
+    <script src="../assets/js/calculadora.js"></script>
+</body>
+
+</html>

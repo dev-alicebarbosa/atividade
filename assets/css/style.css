@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.cabecalho{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cabecalho__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    margin-right: 20px;
+    
+}
+.cabecalho__nav__link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px;
+}
+.cabecalho__nav__link:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+.assinado{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 110px;
+}
+.conteudo__todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.conteudo__todo__titulo{
+    font-size: 60px;
+    text-align: center;
+}
+.conteudo__todo-div__p{
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo__video{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.rodape{
+    color: rgb(138, 138, 240);
+    font-style: italic;
+    text-align: center;
+}
+.btn{
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px #09072500 solid;
+    background-color: blue;
+    color: white;
+    width: 220px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-color: blue;
+
+}
+.conteudo__text{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+img{
+    width: 50%;
+}

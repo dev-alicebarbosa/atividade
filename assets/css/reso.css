@@ -1,0 +1,17 @@
+body{
+    margin: 3% 30%;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap:20px ;
+    text-align: center;
+    font-size: 18px;
+    border-color: blue;
+
+}
+legend{
+    color: blue;
+    font-size: 20px;
+}

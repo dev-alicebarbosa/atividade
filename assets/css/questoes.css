@@ -1,0 +1,55 @@
+.certa {
+    border: 5px solid rgb(38, 143, 38);
+    background-color: rgb(0, 173, 0);
+    color: rgb(195, 236, 195);
+    
+}
+
+.errada{
+    border: 5px solid red;
+    background-color: rgb(173, 40, 0);
+    color: rgb(236, 195, 195);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 2% 10%;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    border-color: blue;
+    padding: 24px;
+    font-size: 18px;
+}
+legend{
+    text-align: center;
+    color: blue;
+    font-size: larger;
+}
+.link{
+    display: none;
+}
+.hidden{
+    color: transparent;
+}
+.show{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px #09072500 solid;
+    background-color: blue;
+    color: white;
+    width: 220px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    cursor: pointer;
+}
+.show:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-color: blue;
+
+}
